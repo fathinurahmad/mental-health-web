@@ -91,7 +91,7 @@ const MentalTestHome = () => {
                         </div>
                         
                         <div className="ml-6">
-                          <Link href={`/mentaltest/quiz?test=${test.slug}`}>
+                          <Link href={`/quiz?test=${test.slug}`}>
                             <Button 
                               className="bg-purple-900 hover:bg-purple-800 text-white px-6 py-2 text-sm font-medium"
                             >
