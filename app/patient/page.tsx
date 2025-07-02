@@ -347,14 +347,6 @@ export default function PatientDashboard() {
             Konsultasi AI
           </Button>
 
-          <Button
-  onClick={() => router.push("/mentaltest")}
-  className="flex items-center gap-2 py-2 px-4 text-sm bg-[#944D8A] hover:bg-[#7a3d72] text-white rounded-md shadow-md hover:shadow-xl transition-transform duration-300 transform hover:scale-105"
->
-  <Brain className="h-4 w-4" />
-  Tes Mental
-</Button>
-
         </div>
       </div>
     </CardContent>
